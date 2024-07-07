@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fff;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.app-header{
+  text-align: center;
+}
+.transaction-dashboard {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #1a1919;
+  text-align: center;
+  justify-content: center;
+  font-family: poppins;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+p{
+  text-align: center;
+  font-family: 'Arial Narrow Bold';
+  margin-top: 20px;
+}
+
+.transactions-table {
+  overflow-x: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.transactions-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactions-table th, .transactions-table td {
+  padding: 10px;
+  border: 1px solid #695b5b;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.transactions-table th {
+  background-color: #feb47b;
+  color: white;
+}
+
+.transactions-table img {
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pagination button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #ff7e5f;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #feb47b;
+}
+
+.pagination select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.transaction-statistics {
+  margin-bottom: 20px;
+}
+
+.statistics-box {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.statistics-box h1 {
+  color: #bb2702;
+  margin-bottom: 20px;
+  font-family: poppins;
+}
+
+.statistics-box h3 {
+  color: #494444;
+  margin-bottom: 10px;
+  font-family: serif;
+}
+
+.bar-chart {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .search-month {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-box, .month-dropdown {
+    width: 100%;
+    max-width: none;
+  }
+
+  .pagination {
+    flex-direction: column;
+    align-items: center;
+  }
+  p{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+}
