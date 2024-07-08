@@ -1,0 +1,32 @@
+.image{
+    width: 40%;
+    height: 80%;
+    position: relative;
+ 
+}
+
+td{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.id{
+    font-weight: 700;
+    margin-right: 10px;
+}
+.title{
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.des{
+font-weight: 300px;
+    font-family: serif;
+    text-align: justify;
+}

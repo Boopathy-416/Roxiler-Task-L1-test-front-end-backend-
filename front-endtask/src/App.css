@@ -1,0 +1,14 @@
+.filters{
+    padding: 10px;
+    text-align: end;
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: serif;
+    font-weight: 200;
+    color: coral;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;
+}
