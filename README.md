@@ -86,3 +86,7 @@ Transactions Bar Char (Use your created API to fetch the data)
 - Chart should display the price range and the number of items in that range for
 the selected month irrespective of the year using API
 - Month selected from dropdown (above the table) should be applied here
+![Screenshot 2024-07-07 082430](https://github.com/user-attachments/assets/412c977c-9ecf-49b7-9576-9080311c940a)
+![Screenshot 2024-07-07 082729](https://github.com/user-attachments/assets/ef30d182-350b-4b63-aeab-01bc56131157)
+![Screenshot 2024-07-07 082755](https://github.com/user-attachments/assets/9f4cf5c4-fdf2-47e5-99a6-0c9f2eb68aad)![Screenshot 2024-07-07 082809](https://github.com/user-attachments/assets/727991e1-18c1-43ff-90ea-5c8a1ce0de21)
+
